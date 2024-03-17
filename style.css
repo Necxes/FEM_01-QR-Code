@@ -11,13 +11,15 @@
 
 /* body */
 body {
-    font-family: "Outfit", sans-serif;;
+    font-family: "Outfit", sans-serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--light-gray);
     padding: 32px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 /* Card */
