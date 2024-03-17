@@ -20,6 +20,7 @@ body {
     padding: 32px;
     margin: 0px;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 /* Card */
@@ -53,7 +54,6 @@ h4 {
 }
 
 p {
-    font-size: 15px;
     color: var(--grayish-blue);
     font-weight: 400;
     margin: 0;
