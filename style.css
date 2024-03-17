@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /* variables */
 :root {
@@ -11,7 +11,7 @@
 
 /* body */
 body {
-    font-family: "Roboto", sans-serif;;
+    font-family: "Outfit", sans-serif;;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,34 +22,37 @@ body {
 
 /* Card */
 .card {
-    max-width: 400px;
-    padding: 20px;
+    max-width: 320px;
+    padding: 16px;
     background-color: var(--white);
-    border-radius: 32px;
+    border-radius: 20px;
     text-align: center;
-    box-shadow: 0 0 16px 16px hsla(var(--dark-blue), 10%);
+    box-shadow: 0 25px 25px rgba(0,0,0, 4.8%);
 }
 
 .card-image img {
     max-width: 100%;
-    border-radius: 16px;
+    border-radius: 10px;
 }
 
 
 .card-text {
-    width: 90%;
-    margin-inline: auto;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 
+/* text */
 h4 {
-    margin-block: 24px;
-    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 22px;
     font-weight: 700;
     color: var(--dark-blue);
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     color: var(--grayish-blue);
     font-weight: 400;
+    margin: 0;
 }
